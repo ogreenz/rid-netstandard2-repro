@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RuntimeIdentifiers>win7-x64;ubuntu.14.04-x64</RuntimeIdentifiers>
+  </PropertyGroup>
+
+  <ItemGroup>
+  	<PackageReference Include="Dapper" Version="1.50.4" />
+  	<PackageReference Include="NodaTime" Version="2.2.3" />
+  </ItemGroup>
+</Project>
